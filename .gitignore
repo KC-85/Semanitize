@@ -1,0 +1,62 @@
+# .gitignore for Semanitize
+
+### Python ###
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+
+### IDE ###
+# VS Code
+.vscode/
+!.vscode/settings.json  # (optional: keep workspace settings)
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+
+### OS ###
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+### Environment ###
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Logs and databases
+*.log
+debug.log
+
+### Package Managers ###
+# npm (optional)
+node_modules/
+package-lock.json
