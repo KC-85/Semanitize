@@ -4,3 +4,7 @@ lxml==5.4.0
 soupsieve==2.7
 typing_extensions==4.13.2
 webencodings==0.5.1
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.6.0
+pytest==8.3.5
